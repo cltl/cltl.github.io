@@ -28,6 +28,8 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 The code of LOTUS, the largest text index to the Linked Open Data cloud, can be found at the repository [LOTUS](semantic_space_navigation/).
 
+Code of our neural profiling machines built on top of background knowledge can be found in the repository [Profiling](Profiling/).
+
 ## Reinforcement Learning
 
 ## Sentiment and Opinion
