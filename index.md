@@ -16,6 +16,8 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 ## Entity Detection and Linking
 
+**Head and tail of entity linking** - analyses of the head and the tail of entity linking can be found [here](EL-long-tail-phenomena/).
+
 ## Word Sense Disambiguation
 
 ## Nominal Coreference
