@@ -18,6 +18,8 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 **Head and tail of entity linking** - analyses of the head and the tail of entity linking can be found [here](EL-long-tail-phenomena/).
 
+**Long tail task** All code used to prepare our SemEval-2018 task \#5 "Counting events and participants in the long tail" can be found in the repository [LongTailQATask](LongTailQATask/).
+
 ## Word Sense Disambiguation
 
 ## Nominal Coreference
