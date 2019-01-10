@@ -20,6 +20,8 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 **Long tail task** All code used to prepare our SemEval-2018 task \#5 "Counting events and participants in the long tail" can be found in the repository [LongTailQATask](LongTailQATask/).
 
+**Systems** Our collaboratively-created system Relink is open-source ([code](relink/)). A human-inspired Entity linking system in progress can be found in the repository [HumanLikeEL](HumanLikeEL/). Our reimplementation of Babelfy is also on [github](BabelfyReimplementation/).
+
 ## Word Sense Disambiguation
 
 ## Nominal Coreference
