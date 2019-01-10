@@ -10,11 +10,41 @@ We work on computational models of natural language in a large variety of topics
 
 We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we create. You can thus find most of our software <a href="https://github.com/cltl/">here</a>, in a long list of repositories. This page is meant to help you find your way, but since it is currently under construction, you may still want to browse through our 100+ repositories for a [full overview](#full-overview).
 
+## Event Detection and Coreference
+
+## Perspectives
+
+## Entity Detection and Linking
+
+## Word Sense Disambiguation
+
+## Nominal Coreference
+
+## Corpora, Lexica, and Ontologies
+
+## Language of Image and Sound 
+
+## NLP and Semantic Web
+
+## Reinforcement Learning
+
+## Sentiment and Opinion
 
 ## Distributional Semantics
 
 Most of our work on distributional semantic models is collected at the repostitory [Semantic Space Navigation](semantic_space_navigation/).
 
+## Communicative Robots
+
+## Methods and Evaluation
+
+## NLP Formats and Parsers
+
+## Teaching material
+
+## Software for humanities and Social sciences
+
+## Mysterious software
 
 ## Full Overview
 
