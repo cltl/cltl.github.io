@@ -24,6 +24,10 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 ## Word Sense Disambiguation
 
+**Performance on head and tail of WSD ([code](https://cltl.github.io/MoreIsNotAlwaysBetter/))**: we describe a set of experiments to analyze properties such as the volume, provenance, and balancing of training data in the framework of a state-of-the-art WSD system when evaluated on the SemEval-2013 English all-words dataset.
+
+**The role of unannoated data** ([replication](https://cltl.github.io/wsd-dynamic-sense-vector/), [demo](https://cltl.github.io/LSTM-WSD/)) This paper presents a reproduction study of [Yuan et al. (2016)](http://aclweb.org/anthology/C16-1130) using mostly openly available datasets (GigaWord, SemCor, OMSTI) and software (TensorFlow). Our study showed that similar results can be obtained with much less data.
+
 ## Nominal Coreference
 
 ## Corpora, Lexica, and Ontologies
@@ -51,6 +55,8 @@ Most of our work on distributional semantic models is collected at the repostito
 ## NLP Formats and Parsers
 
 ## Teaching material
+
+**Python for text analysis ([repository](https://github.com/cltl/python-for-text-analysis))**: This is a practical course in Python, geared towards those who want to get some hands-on experience working with language data. (*now taught at the Vrije Universiteit Amsterdam in the [Humanities Research Master: Linguistics](http://masters.vu.nl/en/programmes/linguistics-research/index.aspx) (track [Human Language Technology](http://www.cltl.nl/teaching/human-language-technology/)) and the [Minor Digital Humanities and Social Analytics (BA)](https://www.vu.nl/nl/studiegids/2017-2018/minor/c-d/digital-humanities/index.aspx).*)
 
 ## Software for humanities and Social sciences
 
