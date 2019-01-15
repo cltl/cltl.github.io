@@ -60,6 +60,8 @@ Most of our work on distributional semantic models is collected at the repostito
 
 ## Software for humanities and Social sciences
 
+**[VU-RM-PIP3](https://github.com/cltl/vu-rm-pip3):** a NewsReader pipeline for syntactic and semantic annotation of Dutch documents. This includes syntactic parsing, semantic role labelling, entity linking, coreference resolution, factuality and opinion mining, and more. We provide instructions for local installation and a docker image.
+
 ## Mysterious software
 
 ## Full Overview
