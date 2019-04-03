@@ -46,7 +46,7 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 ## Corpora, Lexica, and Ontologies
 
-**Lexicons for for historical Dutch** (https://github.com/cltl/clariah-vocab-conversion) This repository contains several historical and contemporaneous lexicons  for Dutch that have been  converted to one common format (LEMON-RDF).
+**Lexical data for historical Dutch** [data and scripts](https://github.com/cltl/clariah-vocab-conversion) This repository contains several historical and contemporaneous lexicons  for Dutch that have been  converted to one common format (LEMON-RDF).
 
 ## Language of Image and Sound 
 
