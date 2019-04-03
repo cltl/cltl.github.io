@@ -80,6 +80,8 @@ Most of our work on distributional semantic models is collected at the repostito
 
 **Python for text analysis ([repository](https://github.com/cltl/python-for-text-analysis))**: This is a practical course in Python, geared towards those who want to get some hands-on experience working with language data. (*now taught at the Vrije Universiteit Amsterdam in the [Humanities Research Master: Linguistics](http://masters.vu.nl/en/programmes/linguistics-research/index.aspx) (track [Human Language Technology](http://www.cltl.nl/teaching/human-language-technology/)) and the [Minor Digital Humanities and Social Analytics (BA)](https://www.vu.nl/nl/studiegids/2017-2018/minor/c-d/digital-humanities/index.aspx).*)
 
+**Text Mining ([repository](https://cltl.github.io/text-mining-ba/))**: This course offers an introduction to text mining as taught at the Vrije Universiteit Amsterdam.
+
 ## Software for humanities and Social sciences
 
 **[VU-RM-PIP3](https://cltl.github.io/vu-rm-pip3/):** a NewsReader pipeline for syntactic and semantic annotation of Dutch documents. This includes syntactic parsing, semantic role labelling, entity linking, coreference resolution, factuality and opinion mining, and more. We provide instructions for local installation and a docker image.
