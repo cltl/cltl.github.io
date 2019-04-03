@@ -40,11 +40,13 @@ We create <b>a lot</b> of software and have a policy of <b>sharing</b> what we c
 
 **Performance on head and tail of WSD ([code](https://cltl.github.io/MoreIsNotAlwaysBetter/))**: we describe a set of experiments to analyze properties such as the volume, provenance, and balancing of training data in the framework of a state-of-the-art WSD system when evaluated on the SemEval-2013 English all-words dataset.
 
-**The role of unannoated data** ([replication](https://cltl.github.io/wsd-dynamic-sense-vector/), [demo](https://cltl.github.io/LSTM-WSD/)) This paper presents a reproduction study of [Yuan et al. (2016)](http://aclweb.org/anthology/C16-1130) using mostly openly available datasets (GigaWord, SemCor, OMSTI) and software (TensorFlow). Our study showed that similar results can be obtained with much less data.
+**The role of unannotated data** ([replication](https://cltl.github.io/wsd-dynamic-sense-vector/), [demo](https://cltl.github.io/LSTM-WSD/)) This paper presents a reproduction study of [Yuan et al. (2016)](http://aclweb.org/anthology/C16-1130) using mostly openly available datasets (GigaWord, SemCor, OMSTI) and software (TensorFlow). Our study showed that similar results can be obtained with much less data.
 
 ## Nominal Coreference
 
 ## Corpora, Lexica, and Ontologies
+
+**Lexicons for for historical Dutch** (https://github.com/cltl/clariah-vocab-conversion) This repository contains several historical and contemporaneous lexicons  for Dutch that have been  converted to one common format (LEMON-RDF).
 
 ## Language of Image and Sound 
 
