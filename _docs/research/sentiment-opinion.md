@@ -1,6 +1,6 @@
 ---
 title: Sentiment and Opinion
-category: NLP topics
+category: Research
 order: 7
 ---
 
@@ -12,3 +12,5 @@ The [Opinion Miner Deluxe ++](https://github.com/rubenIzquierdo/opinion_miner_de
 
 ## Emotion Detection
 [this repository](https://cltl.github.io/EmotionTagger) contains code to score emotions and expressiveness in text.
+
+{% include related.html tag='sentiment' %}

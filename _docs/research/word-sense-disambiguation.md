@@ -1,6 +1,6 @@
 ---
 title: Word Sense Disambiguation
-category: NLP topics
+category: Research
 order: 4
 ---
 
@@ -11,3 +11,4 @@ order: 4
 ## The role of unannotated data
  ([replication](https://cltl.github.io/wsd-dynamic-sense-vector/), [demo](https://cltl.github.io/LSTM-WSD/)) This paper presents a reproduction study of [Yuan et al. (2016)](http://aclweb.org/anthology/C16-1130) using mostly openly available datasets (GigaWord, SemCor, OMSTI) and software (TensorFlow). Our study showed that similar results can be obtained with much less data.
 
+{% include related.html tag='wsd' %}

@@ -1,0 +1,406 @@
+- name: AgeDiscriminationBaseline
+  topics:
+    - perspectives
+    - system
+- name: AnnotatingEntityProfiles
+  topics:
+    - entityDetection
+- name: BabelfyReimplementation
+  topics:
+    - entityLinking
+    - system
+- name: babelnet-lookup
+  topics:
+    - tools
+    - web
+- name: bibliography
+  topics:
+    - cltlResources
+- name: BiographicalDataModels
+  topics:
+    - data
+    - perspectives
+- name: BiographyNet
+  topics:
+    - data
+    - perspectives
+- name: CatFrameNet
+  topics:
+    - eventDetection
+    - annotation
+- name: ceopathfinder
+  topics:
+    - eventDetection
+    - system
+- name: clariah-vocab-conversion
+  topics:
+    - web
+    - data
+- name: clin26-eval
+  topics:
+    - evaluation
+- name: cltl-magicplace
+  topics:
+    - cltlResources
+- name: cltl.github.com
+  topics:
+    - cltlResources
+- name: cltl.github.io
+  topics:
+    - cltlResources
+- name: cltl_kyoto_scripts
+  topics:
+    - cltlResources
+- name: ComputationalPhilosophy
+  topics:
+    - nlp
+- name: content-types
+  topics:
+    - discourse
+- name: ContentZones
+  topics:
+    - discourse
+- name: coreference-evaluation
+  topics:
+    - evaluation
+    - coreference
+- name: CornettoExportParser
+  topics:
+    - wsd
+    - tools
+- name: CorpusComparison
+  topics:
+    - data
+- name: CrowdResultsParser
+  topics:
+    - evaluation
+- name: CuriousMachine
+  topics:
+    - web
+- name: deep-coref
+  topics:
+    - system
+    - coreference
+- name: dependency-parser-nl
+  topics:
+    - syntax
+    - tools 
+- name: DutchDescriptions
+  topics:
+    - data
+    - multimodal
+- name: ECB-parser
+  topics:
+    - wsd
+- name: EL-long-tail-phenomena
+  topics:
+    - entityLinking
+- name: ELBaselines
+  topics:
+    - entityLinking
+- name: EmotionTagger
+  topics:
+    - sentiment
+- name: entity-link-postprocess
+  topics:
+    - entityLinking
+- name: entity-relink-pipeline
+  topics:
+    - entityLinking
+- name: EventCoreference
+  topics:
+    - coreference
+- name: EventStoryLine
+  topics:
+    - perspectives
+- name: factuality_experimental_environment
+  topics:
+    - perspectives
+- name: FormatConversions
+  topics:
+    - annotation
+- name: FrameNet-annotation-tool
+  topics:
+    - eventDetection 
+- name: Graph-based-WSD
+  topics:
+    - wsd
+- name: GRaSP
+  topics:
+    - perspectives
+- name: GroundedTranslation
+  topics:
+    - multimodal
+- name: GunViolenceCorpus
+  topics:
+    - data
+- name: HELAnalysis
+  topics:
+    - entityLinking
+- name: hpsp
+  topics:
+    - nlp
+- name: HumanLikeEL
+  topics:
+    - entityLinking
+- name: Image-Specificity
+  topics:
+    - multimodal
+- name: KafAnnotator
+  topics:
+    - annotation
+- name: KafKybot
+  topics:
+    - annotation
+- name: kaflib
+  topics:
+    - annotation
+- name: KafNafParserPy
+  topics: 
+    - annotation
+- name: KafSaxParser
+  topics: 
+    - annotation
+- name: kyotoquota
+  topics: 
+    - cltlResources
+- name: lexical-negation-dictionary
+  topics:
+    - perspectives
+- name: lexical_pattern_extractor
+  topics:
+    - nlp
+- name: LongTailAnnotation
+  topics:
+    - entityLinking
+- name: LongTailIdentity
+  topics:
+    - entityLinking
+- name: LongTailQATask
+  topics:
+    - entityLinking
+- name: LOTUS
+  topics:
+    - web
+- name: LSTM-WSD
+  topics:
+    - wsd
+- name: meaning_space
+  topics:
+    - distribSem
+- name: mergeAnnotationCAT
+  topics:
+    - annotation
+- name: MFS_classifier
+  topics:
+    - wsd
+- name: micro-portraits
+  topics:
+    - perspectives
+- name: Mining-Ministers
+  topics:
+    - perspectives
+- name: MoreIsNotAlwaysBetter
+  topics:
+    - wsd
+- name: morphosyntactic_parser_nl
+  topics:
+    - syntax
+- name: multilingual-finegrained-entity-typing
+  topics:
+    - entityLinking
+- name: multilingual_factuality
+  topics:
+    - perspectives
+- name: MultiWordTagger
+  topics:
+    - entityDetection
+- name: NAF-HeidelTime
+  topics:
+    - nlp
+- name: NAFFoLiAPy
+  topics:
+    - annotation
+- name: News2RDF
+  topics:
+    - web
+- name: NewsAcquisition
+  topics:
+    - web
+- name: nlpp
+  topics:
+    - newsreader
+- name: nwr-semeval2018-5
+  topics:
+    - eventDetection
+- name: nwr-triple-api
+  topics:
+    - perspectives
+- name: OldBailey
+  topics:
+    - data
+- name: OntoTagger
+  topics:
+    - eventDetection
+- name: Open-Dutch-Framenet
+  topics:
+    - data
+- name: OpenDutchWordnet
+  topics:
+    - wsd
+- name: OpeNER_corpus
+  topics:
+    - sentiment
+- name: opinion_miner_deluxe
+  topics:
+    - sentiment
+- name: pepper
+  topics:
+    - robot
+- name: pepper_tensorflow
+  topics:
+    - robot
+- name: positive-interpretations
+  topics:
+    - perspectives
+- name: PostmaVossenGWC2014
+  topics:
+    - wsd
+- name: Profiling
+  topics:
+    - web
+- name: pwgc
+  topics:
+    - wsd
+- name: python-for-text-analysis
+  topics:
+    - teaching
+- name: PythonVirtuosoInterface
+  topics:
+    - web
+- name: reference-coreference-scorers
+  topics:
+    - coreference
+- name: relink
+  topics:
+    - entityLinking
+- name: sem10scorer-stability
+  topics:
+    - coreference
+- name: SemanticOverfitting
+  topics:
+    - wsd
+- name: semantic_space_navigation
+  topics:
+    - distribSem
+- name: semcor_omsti
+  topics:
+    - annotation
+- name: SemEval2018-5_Postprocessing
+  topics:
+    - entityLinking
+- name: SimpleTagger
+  topics:
+    - annotation
+- name: SoNar2Naf
+  topics:
+    - annotation
+- name: SoundBrowser
+  topics:
+    - tools
+    - multimodal
+- name: SpaCy-to-NAF
+  topics:
+    - syntax
+- name: Spinozalongtail
+  topics:
+    - teaching
+- name: Spoken-versus-Written
+  topics:
+    - multimodal
+- name: StoryTeller
+  topics:
+    - web
+- name: sval_systems
+  topics:
+    - wsd
+    - evaluation
+- name: svm_wsd
+  topics:
+    - wsd
+- name: TeamRobot
+  topics:
+    - robot
+- name: text-mining-ba
+  topics:
+    - teaching
+- name: text2naf
+  topics:
+    - annotation
+- name: ThesisTips
+  topics:
+    - teaching
+- name: TimeMLEventTrigger
+  topics:
+    - eventDetection
+- name: tokeniser-opennlp
+  topics:
+    - syntax
+- name: TripleEvaluation
+  topics:
+    - eventDetection
+- name: triple_evaluation
+  topics:
+    - eventDetection
+- name: variword
+  topics:
+    - distribSem
+- name: vu-rm-pip3
+  topics:
+    - newsreader
+- name: VU-Sound-Corpus
+  topics:
+    - multimodal
+- name: vua-resources
+  topics:
+    - data
+- name: vua-wsd-sem2015
+  topics:
+    - wsd
+- name: vua_factuality
+  topics:
+    - perspectives
+- name: VUA_pylib
+  topics:
+    - annotation
+- name: vuheideltimewrapper
+  topics:
+    - nlp
+- name: WNEventTopicInspection
+  topics:
+    - wsd
+- name: WordNetMapper
+  topics:
+    - wsd
+- name: WordNetSimilarity
+  topics:
+    - wsd
+- name: WordnetTools
+  topics:
+    - wsd
+- name: WordNet_Ambiguity
+  topics:
+    - wsd
+- name: wsd-dynamic-sense-vector
+  topics:
+    - wsd
+- name: WSD-gold-standards-analysis
+  topics:
+    - wsd
+- name: WSD_corpora
+  topics:
+    - wsd
+    - data
+- name: WSD_error_analysis
+  topics:
+    - wsd

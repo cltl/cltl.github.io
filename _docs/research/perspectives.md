@@ -1,7 +1,7 @@
 ---
 title: Perspectives
-category: NLP topics
-order: 2
+category: Research
+order: 6
 ---
 
 ## GRaSP
@@ -23,3 +23,4 @@ Our formal framework for modeling perspectives and their sources on content is c
  [this repository](https://cltl.github.io/EventStoryLine/) contains the materials associated with the StoryLine Extraction Task. The annotation scheme is described in [this paper](http://aclweb.org/anthology/W/W16/W16-5708.pdf) and the corpus is described in [this paper](http://aclweb.org/anthology/W/W17/W17-2711.pdf).
 
 
+{% include related.html tag='perspectives' %}

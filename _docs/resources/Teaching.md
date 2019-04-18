@@ -1,6 +1,7 @@
 ---
 title: Teaching
-category: Teaching
+category: Resources
+order: 3
 ---
 
 ## Python for text analysis
@@ -9,3 +10,4 @@ This is a practical [Python course](https://github.com/cltl/python-for-text-anal
 ## Text Mining
 Our [Text Mining](https://cltl.github.io/text-mining-ba/) course offers an introduction to text mining as taught at the Vrije Universiteit Amsterdam.
 
+{% include related.html tag='teaching' %}
