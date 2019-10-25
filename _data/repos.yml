@@ -1,3 +1,6 @@
+- name: semantic_property_dataset
+  topics:
+     - distribSem
 - name: AgeDiscriminationBaseline
   topics:
     - perspectives
