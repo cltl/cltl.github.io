@@ -1,0 +1,14 @@
+{
+  "research": {
+    "Research": ["research/event-detect", "research/entity-detect", "research/distrib-sem", "research/image-sound", "research/nlp-web", "research/perspectives", "research/robots", "research/sentiment", "research/word-sense"]
+  },
+  "resources": {
+    "Corpora": ["resources/corpora"],
+    "Formats": ["resources/formats"],
+    "Software": ["resources/newsreader", "resources/parsers"],
+    "Evaluation": ["resources/evaluation"]
+  },
+  "teaching": {
+    "Teaching materials": ["teaching/teach", "teaching/teach-pjcts"]
+  }
+}
