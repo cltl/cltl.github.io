@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Word Sense Disambiguation · The CLTL pages</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Performance on head and tail of WSD "/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Word Sense Disambiguation · The CLTL pages"/><meta property="og:type" content="website"/><meta property="og:url" content="https://cltl.github.io/"/><meta property="og:description" content="## Performance on head and tail of WSD "/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/siteicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/cltl-logo-red.png" alt="The CLTL pages"/><h2 class="headerTitleWithLogo">The CLTL pages</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/research/event-detect" target="_self">Research</a></li><li class=""><a href="/docs/resources/corpora" target="_self">Resources</a></li><li class=""><a href="/docs/teaching/teach" target="_self">Teaching</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Research</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Research</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/research/event-detect">Event Detection and Coreference</a></li><li class="navListItem"><a class="navItem" href="/docs/research/entity-detect">Entity Detection and Linking</a></li><li class="navListItem"><a class="navItem" href="/docs/research/distrib-sem">Distributional Semantics</a></li><li class="navListItem"><a class="navItem" href="/docs/research/image-sound">Language of Image and Sound</a></li><li class="navListItem"><a class="navItem" href="/docs/research/nlp-web">NLP and Semantic Web</a></li><li class="navListItem"><a class="navItem" href="/docs/research/perspectives">Perspectives</a></li><li class="navListItem"><a class="navItem" href="/docs/research/robots">Communicative Robots</a></li><li class="navListItem"><a class="navItem" href="/docs/research/sentiment">Sentiment and Opinion</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/research/word-sense">Word Sense Disambiguation</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Word Sense Disambiguation</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="performance-on-head-and-tail-of-wsd"></a><a href="#performance-on-head-and-tail-of-wsd" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Performance on head and tail of WSD</h2>
+<p><a href="https://cltl.github.io/MoreIsNotAlwaysBetter/">More is Not Always Better</a> - We describe a set of experiments to analyze properties such as the volume, provenance, and balancing of training data in the framework of a state-of-the-art WSD system when evaluated on the SemEval-2013 English all-words dataset.</p>
+<h2><a class="anchor" aria-hidden="true" id="the-role-of-unannotated-data"></a><a href="#the-role-of-unannotated-data" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The role of unannotated data</h2>
+<p>(<a href="https://cltl.github.io/wsd-dynamic-sense-vector/">replication</a>, <a href="https://cltl.github.io/LSTM-WSD/">demo</a>) This paper presents a reproduction study of <a href="http://aclweb.org/anthology/C16-1130">Yuan et al. (2016)</a> using mostly openly available datasets (GigaWord, SemCor, OMSTI) and software (TensorFlow). Our study showed that similar results can be obtained with much less data.</p>
+<h2><a class="anchor" aria-hidden="true" id="other"></a><a href="#other" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other</h2>
+<ul>
+<li><a href="https://github.com/cltl/CornettoExportParser">CornettoExportParser</a>: Utilities to process the DebVisDic export of the Cornetto database</li>
+<li><a href="https://github.com/cltl/ECB-parser">ECB-parser</a></li>
+<li><a href="https://github.com/cltl/Graph-based-WSD">Graph-based-WSD</a></li>
+<li><a href="https://github.com/cltl/MFS_classifier">MFS_classifier</a> : This repo contains the scripts to attempt to remove the mfs bias from a WSD system.</li>
+<li><a href="https://github.com/cltl/OpenDutchWordnet">OpenDutchWordnet</a>: This repo provides a python module to work with Open Dutch WordNet.  It was created using python 3.4.</li>
+<li><a href="https://github.com/cltl/PostmaVossenGWC2014">PostmaVossenGWC2014</a>: This repository provides the code to replicate the results from PostmaVossenGWC2014</li>
+<li><a href="https://github.com/cltl/pwgc">pwgc</a>: tool to load the princeton wordnet gloss corpus</li>
+<li><a href="https://github.com/cltl/SemanticOverfitting">SemanticOverfitting</a></li>
+<li><a href="https://github.com/cltl/sval_systems">sval_systems</a></li>
+<li><a href="https://github.com/cltl/svm_wsd">svm_wsd</a>: Word Sense Disambiguation system developed on the DutchSemCor project using Support Vector Machines. The input is plain text, and the output XML</li>
+<li><a href="https://github.com/cltl/vua-wsd-sem2015">vua-wsd-sem2015</a>: System for the CLTL participation in SemEval2015 task 13: multilingual all-words sense disambiguation and entity linking</li>
+<li><a href="https://github.com/cltl/WNEventTopicInspection">WNEventTopicInspection</a></li>
+<li><a href="https://github.com/cltl/WordNetMapper">WordNetMapper</a>: This repo provides the possibility to map between lexical keys | offsets | ilidefs from one wordnet version to the other [&quot;16&quot;,&quot;17&quot;,&quot;171&quot;,&quot;20&quot;,&quot;21&quot;,&quot;30&quot;]. It makes use of the index.sense files from WordNet (<a href="http://wordnet.princeton.edu/">http://wordnet.princeton.edu/</a>) and the automatically generated mappings between WordNet offsets (<a href="http://nlp.lsi.upc.edu/tools/download-map.php">http://nlp.lsi.upc.edu/tools/download-map.php</a>)</li>
+<li><a href="https://github.com/cltl/WordNetSimilarity">WordNetSimilarity</a>: Programs and scripts that test performance of WordNet similarity measurements using different settings</li>
+<li><a href="https://github.com/cltl/WordnetTools">WordnetTools</a>: Set of functions to use a wordnet in Wordnet-LMF format</li>
+<li><a href="https://github.com/cltl/WordNet_Ambiguity">WordNet_Ambiguity</a>: This repository provides a way to compute the WordNet ambiguity of a sequence of text.</li>
+<li><a href="https://github.com/cltl/WSD-gold-standards-analysis">WSD-gold-standards-analysis</a>: This module provides an IPython Notebook to analyze existing gold standards used to evaluate Word Sense Disambiguation.</li>
+<li><a href="https://github.com/cltl/WSD_corpora">WSD_corpora</a></li>
+<li><a href="https://github.com/cltl/WSD_error_analysis">WSD_error_analysis</a>: This repo provides various ways to analyse system submissions to wsd competitions.</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/research/sentiment"><span class="arrow-prev">← </span><span>Sentiment and Opinion</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#performance-on-head-and-tail-of-wsd">Performance on head and tail of WSD</a></li><li><a href="#the-role-of-unannotated-data">The role of unannotated data</a></li><li><a href="#other">Other</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright"><div>This website was built with <a href="https://docusaurus.io/en/">Docusaurus</a>.</div></section><section class="copyright">Copyright © 2020 CLTL</section></footer></div></body></html>
