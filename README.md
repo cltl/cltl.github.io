@@ -1,64 +1,38 @@
 # The CLTL pages
 
-This guide to the CLTL GitHub repositories is built with [CloudCannon](http://cloudcannon.com/)'s [**Edition**](https://learn.cloudcannon.com/templates/edition/) template. This template provides a navigation sidebar where pages are organized by category.
-Besides, pages can include lists of repositories filtered by topic.
+The CLTL pages are now built with [Docusaurus](https://docusaurus.io/en/). 
+
+Compared to the previous version, which was based on [Jekyll](https://jekyllrb.com/), we lose the ability of listing repositories by tag, but we gain a simpler site structure.
 
 ## How to modify the contents
 
 ### Modifying an existing page
 
-You will find this page stored under `_docs/<category>/<page-title>`.
+You will find this page stored under `docs/<category>/<page-title>`.
 
 ### Adding a page to an existing category
 
-You will find that category's folder under `_docs/<category>`. Add a markdown file `<page-title>.md` for your page there. The file should have the following header:
+You will find that category's folder under `docs/<category>`. Add a markdown file `<page-name>.md` for your page there. The name is not important, as it is the 'page id' that serves for linking documents through the site. The file should have the following header:
 
 ```md
 ---
+id: <page-id>
 title: <page-title>
-category: <category>
-order: <n>
 ---
 ```
 
-The order is used for sorting pages in a same category for sectioning. A file with a default header is provided under `_docs/_default.md`.
+You should link this page by adding its category and id to the file `./website/sidebars.json`. Subcategories can be specified directly in this file.
 
 ### Adding a category/section
 
-Create a new folder `<category>` under `_docs`, and add a markdown file with the same category to it. 
+We now have three categories: `research`, `resources`, and `teaching`.
 
-### Adding a new sidebar section
+To create a new category:
 
-This is more involved and requires modifying `_layouts/default.html`. 
+* Create a new folder under `docs`, e.g. `new-category`. This is not required for the website, but only to keep a clean structure.
+* Add a new page for this category, e.g. `new-page.md` with id `new-page`. 
+* Modify the file `./website/siteConfig.js` to add a tab for that category and link it to the first document in it: look for `headerLinks`, and add a line `{doc: 'new-category/new-page', label: 'LabelForThisCategory'},
+* Add the page to the `./website/sidebars.json` file.
 
-### Changing repository tags
-
-Repository tags are listed under `_data/repos.html`.
-
-## About this template
-### Layout
-The template provides a two-column layout with a search field and a sections listing on the left column. 
-
-#### The sidebar
-Besides the header and the search fields, the sidebar has three sections:
-
-- Welcome page, stored as `index.md`
-- documentation pages, stored under `_docs`. These pages are sectionned by category, where each category corresponds to a subfolder in `_docs`.
-- index, stored as `repository-index.html`
-
-#### Note on category/folder and title/file names
-
-The names of categories do not need to match folder names exactly: building iterates through the `_docs` subfolders regardless of their names, and reads the category from the first file it finds in each subfolder. One must make sure in this respect that files of a same category are in the same folder. 
-
-The same holds for title/file names: only title names are read at building.
-
-### Changes to the template
-I have customized and adapted the template in places:
-
-- changed the logo in the sidebar's header to a CLTL logo; the logo is stored as `images/emblem.svg`.
-- modified `_layouts/default.html`:
-    - page titles appear under the section/category title (in the sidebar and on the page itself), unless the category only has a single page with the same name; that is currently the case for the **teaching** section. 
-    - removed the changelog and the attached posts, and replaced it by an index.
-- collected a list of repositories with tags under `_data/repos.yml`. These tags can be used to create a list of repositories for a given tag using the include function `_includes/related.html`. 
 
 
