@@ -19,7 +19,7 @@ This repository contains three README files:
 Contributing to this website requires two steps:
 
 - [Modifying the content](#modifying-the-content). You only need `git` for this in principle.
-- [Publishing the site](#publishing-the-site). You will need `Node >= 8.x` and `[Yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable) >= 1.5` for this. `Node` is probably already installed on your system, follow [these instructions](https://nodejs.org/en/download/) otherwise.
+- [Publishing the site](#publishing-the-site). You will need `Node >= 8.x` and `Yarn >= 1.5` for this. Follow [these instructions](https://classic.yarnpkg.com/en/docs/install#mac-stable) for installing Yarn; `Node` is probably already installed on your system, follow [these instructions](https://nodejs.org/en/download/) otherwise.
 
 ### Modifying the content
 
