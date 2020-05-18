@@ -10,4 +10,3 @@ Other repositories:
 * [meaning_space](https://github.com/cltl/meaning_space)
 * [semantic_property_dataset](https://github.com/cltl/semantic_property_dataset)
 * [variword](https://github.com/cltl/variword)
-* [hpsp](https://github.com/cltl/hpsp)
