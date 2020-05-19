@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>The CLTL pages Blog</title>
+        <link>https://cltl.github.io/blog</link>
+        <description>The best place to stay up-to-date with the latest The CLTL pages news and events.</description>
+        <lastBuildDate>Tue, 19 May 2020 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>The CLTL pages Blog</title>
+            <url>https://cltl.github.io/img/cltl-logo-red.png</url>
+            <link>https://cltl.github.io/blog</link>
+        </image>
+        <copyright>Copyright © 2020 CLTL</copyright>
+        <item>
+            <title><![CDATA[Moving to Docusaurus]]></title>
+            <link>https://cltl.github.io/blog/2020/05/19/moving-to-docusaurus.html</link>
+            <guid>https://cltl.github.io/blog/2020/05/19/moving-to-docusaurus.html</guid>
+            <pubDate>Tue, 19 May 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The CLTL pages are now written with <a href="https://docusaurus.io/en/">Docusaurus</a>.</p> <p>The source for these pages can be found on the <a href="https://github.com/cltl/cltl.github.io/tree/source-docs">cltl/cltl.github.io</a> repository, together with instructions for modification (CLTL members only).</p> ]]></description>
+        </item>
+    </channel>
+</rss>
