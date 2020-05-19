@@ -92,31 +92,19 @@ class Index extends React.Component {
         {[
           {
             content:
-              'We work on computational models of natural language in a large variety of topics including lexicons, ontologies, word embeddings, NLP for digital humanities and social science, event detection and coreference, opinion and argumentation mining, grounding and human-robot interaction and more. You can find out more about our group on our [website](http://cltl.nl). ', 
+              'We work on computational models of natural language in a large variety of topics including lexicons, ontologies, word embeddings, NLP for digital humanities and social science, event detection and coreference, opinion and argumentation mining, grounding and human-robot interaction and more. We create **a lot** of software and have a policy of **sharing** what we create. For the complete list of our repositories, see you on [GitHub](https://github.com/cltl). For a thematized overview of our repositories, you are at the right place! ', 
             title: 'Welcome to the CLTL pages',
           },
         ]}
       </Block>
     );
 
-    const WhatIsThis = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-		'We create **a lot** of software and have a policy of **sharing** what we create. We are proud of presenting our repositories here. See you on [GitHub](https://github.com/cltl) for our latest additions.',
-            title: 'About this website',
-          },
-        ]}
-      </Block>
-    );
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Description />
-          <WhatIsThis />
         </div>
       </div>
     );

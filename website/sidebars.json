@@ -9,6 +9,6 @@
     "Evaluation": ["resources/evaluation"]
   },
   "teaching": {
-    "Teaching materials": ["teaching/teach", "teaching/teach-pjcts"]
+    "Teaching": ["teaching/teach", "teaching/teach-pjcts"]
   }
 }

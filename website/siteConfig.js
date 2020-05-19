@@ -41,6 +41,10 @@ const siteConfig = {
     {doc: 'research/event-detect', label: 'Research'},
     {doc: 'resources/corpora', label: 'Resources'},
     {doc: 'teaching/teach', label: 'Teaching'},
+    {
+      href: 'https://github.com/cltl/cltl.github.io/tree/source-docs',
+      label: 'GitHub',
+    },
   ],
 
   // If you have users set above, you add it here:

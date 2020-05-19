@@ -17,7 +17,7 @@ title: Entity Detection and Linking
 
 ### Relink
  
-* [RElinking with CONtext](https://cltl.github.io/relink/)) - Our collaboratively-created, open-source Entity linking system.
+* [RElinking with CONtext](https://cltl.github.io/relink/) - Our collaboratively-created, open-source Entity linking system.
 * [entity-relink-pipeline](https://github.com/cltl/entity-relink-pipeline): Improve entity links dark entities 
 
 ### Babelfy
@@ -34,5 +34,5 @@ title: Entity Detection and Linking
 * [ELBaselines](https://github.com/cltl/ELBaselines): This repo is aimed to create baseline results for Entity Linking, by running a text against the state-of-the-art systems for entity linking, using their most standard configuration.
 * [entity-link-postprocess](https://github.com/cltl/entity-link-postprocess)
 * [multilingual-finegrained-entity-typing](https://github.com/cltl/multilingual-finegrained-entity-typing)
-
+* [entity-identification-from-scratch](https://github.com/cltl/entity-identification-from-scratch): entity identification by clustering
 
