@@ -2,13 +2,22 @@
   "research": {
     "Research": ["research/event-detect", "research/entity-detect", "research/distrib-sem", "research/image-sound", "research/nlp-web", "research/perspectives", "research/robots", "research/sentiment", "research/word-sense"]
   },
+  "projects": {
+    "Projects": ["projects/clariah-plus"]
+  },
   "resources": {
     "Corpora": ["resources/corpora"],
     "Formats": ["resources/formats"],
-    "Software": ["resources/newsreader", "resources/parsers"],
-    "Evaluation": ["resources/evaluation"]
+    "Software": ["resources/newsreader", "resources/entity-linking-sys", "resources/syntax"],
+    "Evaluation": ["resources/evaluation"],
+    "Internal": ["resources/internal"]
   },
   "teaching": {
-    "Teaching": ["teaching/teach", "teaching/teach-pjcts"]
+    "Teaching Materials": ["teaching/teaching-materials"],
+    "Resources": ["teaching/teaching-resources"],
+    "Course Projects": ["teaching/teaching-projects"]
+  },
+  "internal": {
+    "CLTL": ["internal/internal"]
   }
 }

@@ -39,8 +39,10 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'research/event-detect', label: 'Research'},
+    {doc: 'projects/clariah-plus', label: 'Projects'},
     {doc: 'resources/corpora', label: 'Resources'},
-    {doc: 'teaching/teach', label: 'Teaching'},
+    {doc: 'teaching/teaching-materials', label: 'Teaching'},
+    {doc: 'internal/internal', label: 'CLTL'},
     {
       href: 'https://github.com/cltl/cltl.github.io/tree/source-docs',
       label: 'GitHub',

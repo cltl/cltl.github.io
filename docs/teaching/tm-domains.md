@@ -1,6 +1,7 @@
 ---
-id: teach-pjcts
+id: teaching-projects
 title: Text Mining Domains Projects
+sidebar_label: Text Mining Domains 
 ---
 
 The following repositories were created by students of the Text Mining Master 2019-2020, as part of the Text Mining Domains course:
