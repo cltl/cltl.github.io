@@ -1,5 +1,11 @@
 This repository contains the source documents for the [cltl.github.io](https://cltl.github.io) pages.
 
+## Goal of these GitHub pages
+
+The goal of this repository is to document and organize **all** our repositories, regardless of their maturity or level of activity: all repositories are welcome, whether they accompany a publication or published software, or whether they are work in progress, or even premature repositories. The GitHub pages are thus not only intended for finished, presentable code, but also for repositories that might otherwise be forgotten, and become deadwood.
+
+If you create a CLTL repository, mention it in a suitable place in the GitHub Pages, or create a place for it!
+
 ## Repository Setup
 
 The CLTL pages are now built with [Docusaurus](https://docusaurus.io/en/).
@@ -23,7 +29,7 @@ This repository contains two README files (on `source-docs`):
 Contributing to this website requires two steps:
 
 - [Modifying the contents](#modifying-the-contents). You only need `git` for this in principle.
-- [Publishing the site](#publishing-the-site). You will need `Node >= 8.x` and `Yarn >= 1.5` for this. Follow [these instructions](https://classic.yarnpkg.com/en/docs/install#mac-stable) for installing Yarn; `Node` is probably already installed on your system, follow [these instructions](https://nodejs.org/en/download/) otherwise.
+- [Publishing the site](#publishing-the-site). This step is optional as I (Sophie) will redeploy the website when needed. Follow these instructions if you would like to build the site locally. 
 
 ## Modifying the contents
 
@@ -37,16 +43,47 @@ cd cltl.github.io
 git checkout source-docs
 ```
 
+If you cloned the repository earlier, go to the `source-docs` branch and pull the latest version
+
+```sh
+git checkout source-docs
+git pull
+```
+
+**Collaborative precautions**. You should make changes in a local branch to prevent clashes when pushing your commits. Create a local branch, e.g. `mybranch`:
+
+```sh
+git checkout -b mybranch
+```
+
 You can now access and modify the content in `docs`. You will find below instructions on: 
 
 - [Modifying an existing page](#modifying-an-existing-page)
 - [Adding a page](#adding-a-page-to-an-existing-category)
 - [Adding a category](#adding-a-category-section)
 
+Now you can commit your changes on `mybranch`, go back to the `source-docs` branch, update its contents and merge your commit:
+
+```sh
+git add --all
+git commit -m "message for your commit"
+git checkout source-docs
+git pull 			# in case somebody else pushed new commits in the meantime...
+git merge mybranch 
+```
+
+If somebody else made a commit while you were busy, you might have to resolve conflicts when merging `mybranch` (and merge your changes manually).
+
 Push your changes to the `source-docs` branch when you are done.
 
 ```sh
 git push -u origin source-docs
+```
+
+You can now delete `mybranch` by running:
+
+```sh
+git branch -d mybranch
 ```
 
 ### Modifying an existing page
@@ -85,8 +122,14 @@ To create a new category:
 * Link the page by adding it to the `./website/sidebars.json` file.
 
 
-
 ## Publishing the site
+
+### Requirements
+
+You will need `Node >= 8.x` and `Yarn >= 1.5` for this. Follow [these instructions](https://classic.yarnpkg.com/en/docs/install#mac-stable) for installing Yarn; `Node` is probably already installed on your system, follow [these instructions](https://nodejs.org/en/download/) otherwise.
+
+
+### Instructions
 
 Go to the `website` folder in the previously cloned `source-docs` branch, and set it up for Docusaurus:
 
