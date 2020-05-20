@@ -23,7 +23,7 @@ title: Entity Detection and Linking
 * [ELBaselines](https://github.com/cltl/ELBaselines): This repository aims at creating baseline results for Entity Linking, by running a text against the state-of-the-art systems for entity linking, using their most standard configuration.
 * [entity-link-postprocess](https://github.com/cltl/entity-link-postprocess)
 
-See also our [entity-linking systems](docs/resources/entity-linking.md).
+See also our [entity-linking systems](../resources/entity-linking.md).
 
 ## Entity Detection and Typing
 
