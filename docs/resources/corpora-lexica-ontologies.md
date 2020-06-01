@@ -7,7 +7,7 @@ title: Corpora, Lexica and Ontologies
 
 ## Vaccination debate
 
-* [Vaccination corpus](https://github.com/cltl/VaccinationCorpus)
+* [Vaccination corpus][https://github.com/cltl/VaccinationCorpus]: Corpus from online sources debating vaccination, annotated with atttribution relations, claims, events, and sentiments. Also annotated with propositional alignment relations.
 
 
 ## Historical data
@@ -32,7 +32,7 @@ title: Corpora, Lexica and Ontologies
 * [MWEP][https://github.com/cltl/multilingual-wiki-event-pipeline]
 * [MWEP on one incident][https://github.com/cltl/MWEP_on_one_incident]
 
-## Semantic Roles
+## Dutch Framenet
 * [Spinoza-Dutch-Framenet-Corpus][https://github.com/cltl/FrameNet_annotations_on_SoNaR]: SoNaR PropBank annotation extended with FrametNet1.7 frames and elements
 * [Dutch Framenet Lexicon][https://github.com/cltl/Dutch_FrameNet_Lexicon]
 
