@@ -14,8 +14,9 @@ This course is now taught at the Vrije Universiteit Amsterdam in the [Humanities
 ## Lab sessions and notebooks
 
 * [Machine Learning for NLP](https://github.com/cltl/machine-learning-for-nlp-course)
-* [Human-Language Technology Master](https://github.com/cltl/ma-hlt-labs)
+* [Human-Language Technology introduction](https://github.com/cltl/ma-hlt-labs)
+* [Language as Data](https://github.com/cltl/ma-language-as-data-labs) 
 * [Applied Text Mining](https://github.com/cltl/ma-applied-tm-course) 
-* [Text Mining Bachelor](https://github.com/cltl/ba-text-mining) 
+* [Text Mining Computer Science](https://github.com/cltl/ba-text-mining) 
 * [Subjectivity mining](https://github.com/cltl/ma-course-subjectivity-mining) 
 
