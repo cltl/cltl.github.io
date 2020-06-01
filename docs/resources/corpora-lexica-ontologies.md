@@ -3,6 +3,11 @@ id: corpora
 title: Corpora, Lexica and Ontologies
 ---
 
+## Vaccination debate
+
+* [Vaccination corpus](https://github.com/cltl/VaccinationCorpus)
+
+
 ## Historical data
 
 * The [clariah-vocab-conversion](https://github.com/cltl/clariah-vocab-conversion) repository was created as part of the CLARIAH project. It contains several historical and contemporaneous lexicons for Dutch that have been converted to one common format (LEMON-RDF), as well as code to convert lexicons and vocabularies to RDF.
@@ -13,11 +18,21 @@ title: Corpora, Lexica and Ontologies
 * [BiographicalDataModels](https://github.com/cltl/BiographicalDataModels)
 * [BiographyNet](https://github.com/cltl/BiographyNet): NLP tools and data used in BiographyNet
 
-## Event detection
 
-* [GunViolenceCorpus](https://github.com/cltl/GunViolenceCorpus)
+## Event detection, (co)-reference and identity
+
+* [ECB+][https://github.com/cltl/ecbPlus]: An extension of the Event Coreference Bank to increase referential ambiguity
+* [Event Storyline corpus][https://github.com/cltl/EventStoryLine]: An extension of ECB+ with narrative structures to create storylines
+* [Circumstantial Event Ontology and Corpus][https://github.com/cltl/CEO-Ontology]: An ontology with pre-conditions and post-conditions for events which reflect circumstantial causal relations, and an extension of ECB+ annotated with these relations
+* [GunViolenceCorpus](https://github.com/cltl/GunViolenceCorpus): corpus with referential data on incidents that exhibits extreme variation and ambiguity
 * [OldBailey](https://github.com/cltl/OldBailey): Processing the OldBailey data to create LOD
 * [CorpusComparison](https://github.com/cltl/CorpusComparison): data for [van Son et al., 2018. *Resource Interoperability for Sustainable Benchmarking: The Case of Events*](https://www.aclweb.org/anthology/L18-1178/)
+* [MWEP][https://github.com/cltl/multilingual-wiki-event-pipeline]
+* [MWEP on one incident][https://github.com/cltl/MWEP_on_one_incident]
+
+## Semantic Roles
+* [Spinoza-Dutch-Framenet-Corpus][https://github.com/cltl/FrameNet_annotations_on_SoNaR]: SoNaR PropBank annotation extended with FrametNet1.7 frames and elements
+* [Dutch Framenet Lexicon][https://github.com/cltl/Dutch_FrameNet_Lexicon]
 
 ## Image description
 
