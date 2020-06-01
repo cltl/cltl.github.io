@@ -2,6 +2,8 @@
 id: corpora
 title: Corpora, Lexica and Ontologies
 ---
+## Wordnet
+* [Open Dutch Wordnet][https://github.com/cltl/OpenDutchWordnet]: Open Dutch Wordnet
 
 ## Vaccination debate
 

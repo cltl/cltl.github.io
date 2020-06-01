@@ -14,9 +14,9 @@ title: Event Detection and Coreference
 * [TimeMLEventTrigger](https://github.com/cltl/TimeMLEventTrigger)
 * [TripleEvaluation](https://github.com/cltl/TripleEvaluation): This program evaluates text mining output from text on the basis of a triple representation.
 
-## Coreference
+## Event coreference
 
 * [coreference-evaluation](https://github.com/cltl/coreference-evaluation): Evaluation package for event coreference using the reference-scorer
-* [EventCoreference](https://github.com/cltl/EventCoreference): Compares descriptions of events within and across documents to decide if they refer to the same events.
+* [EventCoreference](https://github.com/cltl/EventCoreference): Compares descriptions of events within and across documents to decide if they refer to the same events. Also converts NAF to GRASP-RDF and SEM-RDF.
 * [reference-coreference-scorers](https://github.com/cltl/reference-coreference-scorers): This is the reference implementation of commonly used coreference metrics.
 * [sem10scorer-stability](https://github.com/cltl/sem10scorer-stability): Testing the stability of sem10scorer
