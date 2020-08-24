@@ -3,7 +3,7 @@
     "Research": ["research/event-detect", "research/entity-detect", "research/distrib-sem", "research/image-sound", "research/nlp-web", "research/perspectives", "research/robots", "research/sentiment", "research/word-sense"]
   },
   "projects": {
-    "Projects": ["projects/clariah-plus"]
+    "Projects": ["projects/clariah-plus", "projects/dutch-framenet"]
   },
   "resources": {
     "Corpora": ["resources/corpora"],
