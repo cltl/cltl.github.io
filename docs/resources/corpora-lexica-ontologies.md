@@ -3,11 +3,11 @@ id: corpora
 title: Corpora, Lexica and Ontologies
 ---
 ## Wordnet
-* [Open Dutch Wordnet][https://github.com/cltl/OpenDutchWordnet]: Open Dutch Wordnet
+* [Open Dutch Wordnet](https://github.com/cltl/OpenDutchWordnet): Open Dutch Wordnet
 
 ## Vaccination debate
 
-* [Vaccination corpus][https://github.com/cltl/VaccinationCorpus]: Corpus from online sources debating vaccination, annotated with atttribution relations, claims, events, and sentiments. Also annotated with propositional alignment relations.
+* [Vaccination corpus](https://github.com/cltl/VaccinationCorpus): Corpus from online sources debating vaccination, annotated with atttribution relations, claims, events, and sentiments. Also annotated with propositional alignment relations.
 
 
 ## Historical data
@@ -23,18 +23,18 @@ title: Corpora, Lexica and Ontologies
 
 ## Event detection, (co)-reference and identity
 
-* [ECB+][https://github.com/cltl/ecbPlus]: An extension of the Event Coreference Bank to increase referential ambiguity
-* [Event Storyline corpus][https://github.com/cltl/EventStoryLine]: An extension of ECB+ with narrative structures to create storylines
-* [Circumstantial Event Ontology and Corpus][https://github.com/cltl/CEO-Ontology]: An ontology with pre-conditions and post-conditions for events which reflect circumstantial causal relations, and an extension of ECB+ annotated with these relations
+* [ECB+](https://github.com/cltl/ecbPlus): An extension of the Event Coreference Bank to increase referential ambiguity
+* [Event Storyline corpus](https://github.com/cltl/EventStoryLine): An extension of ECB+ with narrative structures to create storylines
+* [Circumstantial Event Ontology and Corpus](https://github.com/cltl/CEO-Ontology): An ontology with pre-conditions and post-conditions for events which reflect circumstantial causal relations, and an extension of ECB+ annotated with these relations
 * [GunViolenceCorpus](https://github.com/cltl/GunViolenceCorpus): corpus with referential data on incidents that exhibits extreme variation and ambiguity
 * [OldBailey](https://github.com/cltl/OldBailey): Processing the OldBailey data to create LOD
 * [CorpusComparison](https://github.com/cltl/CorpusComparison): data for [van Son et al., 2018. *Resource Interoperability for Sustainable Benchmarking: The Case of Events*](https://www.aclweb.org/anthology/L18-1178/)
-* [MWEP][https://github.com/cltl/multilingual-wiki-event-pipeline]
-* [MWEP on one incident][https://github.com/cltl/MWEP_on_one_incident]
+* [MWEP](https://github.com/cltl/multilingual-wiki-event-pipeline)
+* [MWEP on one incident](https://github.com/cltl/MWEP_on_one_incident)
 
 ## Dutch Framenet
-* [Spinoza-Dutch-Framenet-Corpus][https://github.com/cltl/FrameNet_annotations_on_SoNaR]: SoNaR PropBank annotation extended with FrametNet1.7 frames and elements
-* [Dutch Framenet Lexicon][https://github.com/cltl/Dutch_FrameNet_Lexicon]
+* [Spinoza-Dutch-Framenet-Corpus](https://github.com/cltl/FrameNet_annotations_on_SoNaR): SoNaR PropBank annotation extended with FrametNet1.7 frames and elements
+* [Dutch Framenet Lexicon](https://github.com/cltl/Dutch_FrameNet_Lexicon)
 
 ## Image description
 

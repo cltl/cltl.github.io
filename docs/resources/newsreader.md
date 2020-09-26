@@ -5,7 +5,7 @@ title: Newsreader
 
 
 ## VU Reading Machine
-The [Reading Machine](https://cltl.github.com/cltl/vu-rm-pip3) provides an up-to-date NewsReader pipeline for Dutch, for use on Linux or with Docker. Refer to the [documentation](https://vu-rm-pip3.readthedocs.io/en/latest/) for installation and usage instructions. 
+The [Reading Machine](https://vu-rm-pip3.readthedocs.io/en/latest/) provides an up-to-date NewsReader pipeline for Dutch, for use on Linux or with Docker. 
 
 Many of the components for the pipeline are listed in our pages:
 
