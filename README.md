@@ -1,5 +1,3 @@
-This repository contains the source documents for the [cltl.github.io](https://cltl.github.io) pages.
-
 **NEW** The site is now published through GitHub actions when you push changes onto the main branch. Source docs are now kept on the `main` branch.
 
 ## Goal of these GitHub pages
