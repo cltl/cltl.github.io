@@ -1,3 +1,8 @@
+---
+id: dutchframenet
+title: Open Dutch FrameNet
+---
+
 # Open Dutch FrameNet
 
 Welcome to the Open Dutch FrameNet! This page contains pointers to our lexicon and corpus:
