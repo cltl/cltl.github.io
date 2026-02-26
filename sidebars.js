@@ -25,6 +25,7 @@ const sidebars = {
     "Formats": ["resources/formats"],
     "Software": ["resources/newsreader", "resources/entity-linking-sys", "resources/syntax"],
     "Evaluation": ["resources/evaluation"],
+	  "Dutch FrameNet": ["resources"],
   },
   teachingSidebar: {
     "Teaching Materials": ["teaching/teaching-materials"],
