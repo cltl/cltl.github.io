@@ -1,4 +1,0 @@
----
-id: newsreader
-title: Newsreader
----
